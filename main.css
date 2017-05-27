@@ -1,3 +1,37 @@
-p {
-	font-size: 100px;
+body {
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+
+nav {
+	color: white;
+	background-color: black !important;
+}
+
+.list-item:hover {
+	background-color: #FF7A00;
+}
+
+#header {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ), url(https://www.dropbox.com/s/gvi0l46zh7s307x/running_header2.jpg?raw=1);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px;
+  	font-family: 'cabin', sans-serif;
+  	color: white;
+  	text-align: center;
+}
+
+#header-text {
+	margin-top: 0;
+  	font-size: 80px;
+  	letter-spacing: 1px;
+  	padding-top: 20vh;
+}
+
+#tag-line {
+	font-size: 30px;
+	padding-top: 20px;
 }
