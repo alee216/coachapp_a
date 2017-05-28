@@ -8,8 +8,17 @@ nav {
 	background-color: black !important;
 }
 
-.list-item:hover {
+.nav-item:hover {
 	background-color: #FF7A00;
+}
+
+.navbar-nav > li > .dropdown-menu { 
+	background-color: black;
+	border: solid white 1px;
+}
+
+.navbar-nav > li > .dropdown-menu a{
+	color: white;
 }
 
 #header {
